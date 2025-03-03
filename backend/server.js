@@ -177,7 +177,7 @@ async function startServer() {
             console.log(`Servidor rodando em http://localhost:4000/graphql`);
         });
     } catch (error) {
-        concole.error("❌ Erro ao conectar ao MongoDB:", error);
+        console.error("❌ Erro ao conectar ao MongoDB:", error);
         process.exit(1);
     }
 }
